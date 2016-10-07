@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  evolutions,
   specs2 % Test,
   "com.h2database"  %  "h2"                           % "1.4.192",
   "org.scalikejdbc" %% "scalikejdbc"                  % "2.4.2",
