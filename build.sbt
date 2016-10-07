@@ -12,6 +12,7 @@ libraryDependencies ++= Seq(
   ws,
   evolutions,
   specs2 % Test,
+  "mysql" % "mysql-connector-java" % "5.1.39",
   "com.h2database"  %  "h2"                           % "1.4.192",
   "org.scalikejdbc" %% "scalikejdbc"                  % "2.4.2",
   "org.scalikejdbc" %% "scalikejdbc-config"           % "2.4.2",
