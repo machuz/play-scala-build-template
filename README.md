@@ -1,12 +1,14 @@
 # play-scala-build-template
 
-DB Migration
-=======
-add Java Option `play.evolutions.autoApply=true`
-https://www.playframework.com/documentation/2.4.x/Evolutions
+RUN
+======
+`sbt run` // access to http://localhost:9000
+NOTE: 
+application.confで`play.evolutions.autoApply=true`を指定しているので
+DBのマイグレーションは自動で行われます。
 
 ORM code-gen
 =======
-`sbt "scalikejdbc-gen [table-name (class-name)]"`
+`sbt "scalikejdbc-gen users"`
 http://scalikejdbc.org/
 
