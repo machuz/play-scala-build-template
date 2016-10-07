@@ -11,7 +11,10 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   specs2 % Test,
-  "com.h2database"  %  "h2"                           % "1.4.192"
+  "com.h2database"  %  "h2"                           % "1.4.192",
+  "org.scalikejdbc" %% "scalikejdbc"                  % "2.4.2",
+  "org.scalikejdbc" %% "scalikejdbc-config"           % "2.4.2",
+  "org.scalikejdbc" %% "scalikejdbc-play-initializer" % "2.5.1"
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
